@@ -60,7 +60,12 @@
 .menu__link:focus {
     color: #ef4747e1;
 }
+@media screen and (min-width: 1540px) {
+    .header__top.fixed {
+        padding: 0 calc((100vw - 1500px) / 2);
+    }
 
+}
 @media (max-width: 1280px) {
     .menu__item {
         margin-left: 30px;
