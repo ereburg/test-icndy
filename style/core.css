@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Proxima, Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    overflow-wrap: break-word;
+}
+
+.container{
+    max-width: 100%;
+    min-width: 320px;
+}
+
+.wrap{
+    max-width: 1200px;
+    min-width: 290px;
+    margin: 0 auto;
+}
+ 
+.header__wrap,
+.footer__wrap,
+.content__wrap {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+@media (min-width: 1500px){
+    .header__wrap,
+    .content .content__wrap {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
